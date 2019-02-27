@@ -47,8 +47,8 @@ mutable struct ParticleSwarmState{Tx,T} <: ZerothOrderState
     X
     V
     X_best
-    score::Vector{Tx}
-    best_score::Vector{Tx}
+    score::Vector
+    best_score::Vector
     x_learn
     current_state
     iterations::Int
